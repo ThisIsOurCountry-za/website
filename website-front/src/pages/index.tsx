@@ -95,8 +95,9 @@ function Hero() {
         <Title>Let's fix it together</Title>
 
         <Text>
-          Talk to your friends and neighbors and you will hear the same thing:
-          "This country is hopeless, and we are helpless to change it".
+          Talk to your friends and neighbors about South Africa, you will hear
+          the same thing: "This country is hopeless, and we are helpless to
+          change it".
         </Text>
 
         <Text>
