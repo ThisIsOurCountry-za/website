@@ -5,25 +5,27 @@ export default function CallToAction({
   title,
   buttonText,
   buttonLink,
+  newTab,
+  icon,
 }: {
   title: string;
   buttonText: string;
   buttonLink: string;
+  newTab?: boolean;
+  icon?: React.ReactNode;
 }) {
   return (
-    <Group position="center">
-      {/* <Card shadow="sm" padding="lg" radius="md" withBorder> */}
+    <Group position="center" mb="md">
       <Group>
         <Text fw={500} fz="xl">
           {title}
         </Text>
-        <Link href={buttonLink}>
-          <Button radius="xl" size="md">
+        <Link href={buttonLink} target={newTab ? "_blank" : "_self"}>
+          <Button radius="xl" size="md" leftIcon={icon}>
             {buttonText}
           </Button>
         </Link>
       </Group>
-      {/* </Card> */}
     </Group>
   );
 }
