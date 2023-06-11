@@ -9,3 +9,9 @@ export default function About() {
     </Page>
   );
 }
+
+export function getStaticProps() {
+  return {
+    props: {},
+  };
+}
