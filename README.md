@@ -6,4 +6,4 @@ The main application code can be seen in the website-front directory. It is a pe
 
 ## Contributing
 
-If you want to contribute some code then please refer to [[contribution.md]]
+If you want to contribute some code then please refer to [our contribution guide](contribution.md)
